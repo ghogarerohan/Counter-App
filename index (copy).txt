@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CountDown Timer</title>
+        <meta name="description" content="Counter">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+       
+    </head>
+	
+	
+    <body>
+		<div id ="wrapper">
+		<table width="400"  height ="300"  align="center">
+		<form id="ls" method="post" action="" >
+            
+			<h1>Countdown Clock</h1>
+			
+			<fieldset> <!-- Field is created to create a label-->
+				
+				<div id = "clockdiv">
+
+					<tr>
+						<td>
+						   <div id="days"></div>
+						</td>
+						<td>
+							<div id="Hours"></div>
+						</td>
+						<td>
+							<div id="Minutes"></div>
+						</td>
+					
+						<td>
+							<div id="Seconds"></div>
+						</td>
+				   
+			</fieldset>
+				
+				
+									
+			</form> 
+		</table>
+
+	</div>
+			  <script src="contact1.js"></script>
+	</body>
+</html>
+
+
